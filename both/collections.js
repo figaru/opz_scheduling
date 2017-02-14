@@ -1,0 +1,1 @@
+ScheduledJobs = JobCollection('ScheduledJobs');
