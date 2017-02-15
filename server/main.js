@@ -2,7 +2,7 @@ import { Meteor } from 'meteor/meteor';
 
 import later from 'later';
 
-import { JobScheduler } from './jobs/jobScheduler.js';
+import './UserJobsCollection/userJobs.js';
 
 
 var EmailJob = JobCollection('emailJob');
@@ -17,10 +17,10 @@ Meteor.startup(function () {
 	var i = 0;
 
 	//instantiate jobs class
-	jobs = new JobScheduler();
+	//jobs = new JobScheduler();
 	
 	//initialize jobs
-	jobs.init();
+	//jobs.init();
 
 	//create NoDataEngagement job
 	//noDataEngagement = new NoDataEngagement(ScheduledJobs);
