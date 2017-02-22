@@ -9,6 +9,7 @@ blaze@2.3.0
 blaze-html-templates@1.1.0
 blaze-tools@1.0.10
 boilerplate-generator@1.0.11
+bootstrap@1.0.1
 bozhao:later-js@0.1.0
 caching-compiler@1.1.9
 caching-html-compiler@1.1.0
@@ -46,6 +47,7 @@ mobile-experience@1.0.4
 mobile-status-bar@1.0.13
 modules@0.7.7
 modules-runtime@0.7.8
+momentjs:moment@2.17.1
 mongo@1.1.14
 mongo-id@1.0.6
 mrt:later@1.6.1

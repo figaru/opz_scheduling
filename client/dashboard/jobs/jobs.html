@@ -1,0 +1,31 @@
+<template name="jobs">
+	<link rel="stylesheet" type="text/css" href="./jobs.css">
+	<div class="row">
+		{{#each jobs}}
+			{{>job}}
+		{{else}}
+			No current jobs
+		{{/each}}
+	</div>
+</template>
+
+<template name="job">
+	<div class="col-xs-4 col-sm-3 col-md-2">
+		<div class="well" style="padding: 4px; text-align:center;">
+			<h4>{{type}}</h4>
+			<span class="received">{{when after}}</span>
+			
+			<div class="outer-wrapper">
+				<div class="column-wrapper">
+					<div class="column" style="background: rgb(0, 230, 118); height: 100%;"></div>
+				</div>
+				<div class="percentage">
+					<div class="progress">
+						{{{work}}}
+					</div>
+				</div>
+				<div class="value job-status {{status}}">{{status}}</div>
+			</div>
+		</div>
+	</div>
+</template>

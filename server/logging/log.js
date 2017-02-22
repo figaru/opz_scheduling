@@ -8,7 +8,7 @@ Log.prototype = {
 	set: function(bool){
 		this.debug = bool;
 	},
-	log: function(text){
+	info: function(text){
 		if(!this.debug)
 			return;
 		
